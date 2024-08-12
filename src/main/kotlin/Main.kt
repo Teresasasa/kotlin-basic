@@ -6,7 +6,6 @@ fun main(args: Array<String>) {
     println("Program arguments: ${args.joinToString()}")
 
     val printUtil = PrintUtil()
-    val labelUtil = LabelUtil()
     // Try adding program arguments via Run/Debug configuration.
     // Learn more about running applications: https://www.jetbrains.com/help/idea/running-applications.html.
 
@@ -18,5 +17,4 @@ fun main(args: Array<String>) {
     )
 
     printUtil.printTable(headers, rows)
-    println(labelUtil.convertNumberToColumnLabel(26))
 }
